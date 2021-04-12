@@ -17,7 +17,7 @@ def compute_optimal_summands(n):
             summands.append(l)
             k -= l
         l += 1
-    print(summands)
+    return summands
     
     # def sum_i(l):
     #     return l
