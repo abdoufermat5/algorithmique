@@ -153,18 +153,17 @@ def printTree(tree):
                 flag = 1
 
 
-record_len = 3
-bplustree = BPlusTree(record_len)
-bplustree.insert('5', '33')
-bplustree.insert('15', '21')
-bplustree.insert('25', '31')
-bplustree.insert('35', '41')
-bplustree.insert('45', '10')
-
 if __name__ == '__main__':
+    record_len = 3
+    bplustree = BPlusTree(record_len)
+    bplustree.insert('5', '33')
+    bplustree.insert('15', '21')
+    bplustree.insert('25', '31')
+    bplustree.insert('35', '41')
+    bplustree.insert('45', '10')
     printTree(bplustree)
 
-    if bplustree.find('5', '34'):
+    if bplustree.find('45', '11'):
         print("Found")
     else:
         print("Not found")
