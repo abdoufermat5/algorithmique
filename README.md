@@ -1,1 +1,6 @@
-# Resolution de quelques problemes et implémentations de quelques algorithmes 
+# Algorithms and Data Structures in Python
+[...]
+
+This project contains implementations of several important algorithms
+
+---
