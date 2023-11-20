@@ -20,6 +20,6 @@ def compress_file(input_path, output_path, file_type):
 
 
 if __name__ == '__main__':
-    input_path = os.path.join(os.path.dirname(__file__), '../algo.pdf')
+    input_path = os.path.join(os.path.dirname(__file__), '../../algo.pdf')
     output_path = os.path.join(os.path.dirname(__file__), 'output.pdf')
     compress_file(input_path, output_path, 'text')

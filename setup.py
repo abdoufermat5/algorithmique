@@ -12,7 +12,7 @@ with open("requirements.txt") as f:
 setup(
     name='algo_fermat',
     version='1.0.1',
-    description='Graphs',
+    description='Algorithmic library for Python lovers',
     long_description=long_description,
     author='Abdoufermat5',
     find_packages=find_packages(),

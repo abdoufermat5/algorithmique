@@ -1,4 +1,4 @@
-from tri.tri_insertion import tri_insertion
+from programming_approach.tri import tri_insertion
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
